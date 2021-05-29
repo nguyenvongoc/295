@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlONE</title>
+    <style>
+       div
+       {
+        color: greenyellow;
+        margin: auto;
+        height: 420px;
+        width: 700px;
+        border: 4px solid ;
+        background-color: palegoldenrod;
+        font-size: larger;
+        background-image: url("image/ss-broken-heart.jpg");
+        background-size: 100% 100%;
+       }
+       button
+       {
+           width: 150px;
+           color: blueviolet;
+       }
+       table
+       {
+           width: inherit;
+           margin-left: auto;
+           margin-right: auto;
+       }
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <h1 style="text-align: center;">Alone Day !</h1>
+        Nhập tên của bạn :
+        <input type="text" name="" id="name">
+        <h2 style="text-align: center;">Ngày Chia Tay </h2>
+        <tr style="text-align: center;">
+            <td style="color: khaki;">Ngày</td>
+            <td style="color:khaki;">Tháng</td>
+            <td style="color:khaki;">Năm</td>
+        </tr>
+        <tr>
+            <td><input type="Number" name="" id="day" value=""></td>
+            <td>
+                <select name="" id="month">
+                    <option value="0">1</option>
+                    <option value="1">2</option>  
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">5</option>
+                    <option value="5">6</option>
+                    <option value="6">7</option>
+                    <option value="7">8</option>
+                    <option value="8">9</option>
+                    <option value="9">10</option>
+                    <option value="10">11</option>  
+                    <option value="11">12</option>
+                </select>
+            </td>
+            <td><input type="Number" name="" id="year" value=""></td> 
+            <td><button onclick="setting()">Kiểm Tra</button></td>
+        </tr>
+    </table>
+    <h3 id="output"></h3>
+    <h3 id="random"></h3>
+    <h3 id="test"></h3>
+    </div>
+    <script src="my.js"></script>
+</body>
+</html>
